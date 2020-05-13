@@ -13,41 +13,83 @@ header {
   height: 600px;
   background-image: url(../img/fluentify-imgs/fluentify-jumbo.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-color: blue;
+  background-size:70% ;
+  background-color: rgba(29, 70,120);
+  background-position:right bottom;
+  position: relative;
+}
+
+.logo {
+  padding: 5px;
+
+}
+
+
+.buttonjumbo {
+  background-color: lightgreen;
 }
 
 /* navabr */
 .headbar{
   width: 100%;
   height: 50px;
-  background-color: red;
+  /* background-color: red; */
+  /* line-height: 50%; */
 }
 .headbar .logo {
   display: inline-block;
 }
 
-.headbar .navbar li {
-
-}
 
 .navbar li {
   display: inline-block;
+
+
 
 }
 
 .headbar .navbar {
   display: inline-block;
+  padding: 5px;
+  line-height: 50%;
+}
+
+.scrittajumbo{
+  width: 50%;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  left: 0;
+  top: 30%;
+
+  position: absolute ;
+
 }
 .section1 {
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-color: lightgrey;
   text-align: center;
+
+}
+
+.scritta {
+padding-top:30px;
+}
+
+.solouncorso {
+  color: grey;
 }
 
 
 /* inizio sezione2 con colonne */
+.piano, .affiancamento, .monitora {
+  width: 40%;
+  padding: 10px;
+}
+h4 {
+color: green;
+}
 .section2::after{
   content: "";
   display: table;
@@ -55,26 +97,32 @@ header {
 }
 
 .colonna1sez2{
-  width: 20%;
+  width: 33%;
   /* height:200px; */
-  background-color: yellow;
+  /* background-color: yellow; */
   float: left;
+  text-align: center;
+  padding: 70px;
 
 }
 
 .colonna2sez2{
-  width: 60%;
+  width: 34%;
   /* height:200px; */
-  background-color: orange;
+  /* background-color: orange; */
   float: left;
+  text-align: center;
+  padding: 50px;
 
 }
 
 .colonna3sez3{
-  width: 20%;
+  width: 33%;
   /* height:200px; */
-  background-color: yellow;
+  /* background-color: yellow; */
   float: left;
+  text-align: center;
+  padding: 70px;
 
 }
 /* fine sezione2 */
@@ -89,7 +137,7 @@ header {
 .colonna1sez3{
   width: 50%;
   /* height:200px; */
-  background-color: grey;
+  /* background-color: grey; */
   float: left;
 
 }
@@ -97,9 +145,15 @@ header {
 .colonna2sez3{
   width: 50%;
   /* height:200px; */
-  background-color: green;
+  /* background-color: green; */
   float: left;
+  padding: 50px;
+  font-size: 25px;
 
+}
+
+#scopri {
+  padding:20px;
 }
 
 /* fine sezione3 */
