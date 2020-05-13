@@ -88,7 +88,7 @@ header {
 
 .colonna1sez3{
   width: 50%;
-  height:200px;
+  /* height:200px; */
   background-color: grey;
   float: left;
 
@@ -96,7 +96,7 @@ header {
 
 .colonna2sez3{
   width: 50%;
-  height:200px;
+  /* height:200px; */
   background-color: green;
   float: left;
 
