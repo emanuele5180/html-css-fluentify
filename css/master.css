@@ -24,9 +24,17 @@ header {
 
 }
 
-
+.button-nav {
+  background-color: #5df207;
+  padding: 2%;
+  border-radius: 10px;
+  color: white;
+}
 .buttonjumbo {
-  background-color: lightgreen;
+  background-color: #5df207;
+  padding: 2%;
+  border-radius: 10px;
+  color:white;
 }
 
 /* navabr */
